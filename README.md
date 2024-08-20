@@ -1,2 +1,52 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/PwK3l629)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15557229&assignment_repo_type=AssignmentRepo)
+
+
+# Where's Waldo? Detection using YOLOv5
+
+## Project Overview
+
+This project leverages the YOLOv5 deep learning model to automate the detection of Waldo in "Where's Waldo?" images. The model is trained on a custom dataset of annotated images and is capable of accurately identifying and localizing Waldo in complex and crowded scenes. The project demonstrates the potential of object detection models in solving intricate visual puzzles.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Model Training](#model-training)
+- [Results](#results)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Further Research](#further-research)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Dataset
+
+The dataset consists of various "Where's Waldo?" images, each annotated with bounding boxes around Waldo. The images are split into training, validation, and testing sets.
+
+- **Training Data**: Used to train the YOLOv5 model.
+- **Validation Data**: Used to tune hyperparameters and prevent overfitting.
+- **Test Data**: Used to evaluate the model's performance.
+
+## Model Training
+
+The YOLOv5 model was trained with the following settings:
+
+- **Learning Rate**: 0.01
+- **Confidence Threshold**: 0.75
+- **Epochs**: Customizable based on dataset size and model performance.
+
+The training process involves fine-tuning the model on the custom dataset until it achieves satisfactory accuracy in detecting Waldo.
+
+## Results
+
+The trained YOLOv5 model achieved an accuracy of approximately 80% on the test dataset. The results indicate the model's effectiveness in identifying Waldo across different challenging images. The model can be further optimized for better performance.
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. **Download the Dataset and Extract it**:
+2. **Install YOLOv5**:
+     ```bash
+     git clone https://github.com/ultralytics/yolov5
+
+3.**Done**     
