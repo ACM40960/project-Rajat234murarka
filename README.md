@@ -13,19 +13,15 @@ This project leverages the YOLOv5 deep learning model to automate the detection 
 - [Model Training](#model-training)
 - [Results](#results)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Further Research](#further-research)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Dataset
 
-The dataset consists of various "Where's Waldo?" images, each annotated with bounding boxes around Waldo. The images are split into training, validation, and testing sets.
-
+The dataset consists of 943 "Where's Waldo?" images, each annotated with bounding boxes around Waldo. The images are split into training, validation, and testing sets.
+     
 - **Training Data**: Used to train the YOLOv5 model.
 - **Validation Data**: Used to tune hyperparameters and prevent overfitting.
 - **Test Data**: Used to evaluate the model's performance.
-
+-  https://universe.roboflow.com/tan-rmi/whereiswaldo-ssmol/dataset/1
 ## Model Training
 
 The YOLOv5 model was trained with the following settings:
@@ -45,8 +41,7 @@ The trained YOLOv5 model achieved an accuracy of approximately 80% on the test d
 To set up the project locally, follow these steps:
 
 1. **Download the Dataset and Extract it**:
-2. **Install YOLOv5**:
-     ```bash
-     git clone https://github.com/ultralytics/yolov5
+     https://universe.roboflow.com/tan-rmi/whereiswaldo-ssmol/dataset/1
+2. **Follow the steps in ipynb file**:
 
-3.**Done**     
+3. **It's That easy**
